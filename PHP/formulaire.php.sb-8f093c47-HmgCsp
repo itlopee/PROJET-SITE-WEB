@@ -1,0 +1,84 @@
+<!doctype html>
+	 <html lang="fr">
+	 <head>
+		 <title>accueil</title>
+		 <meta charset="utf-8"/>
+		 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 
+		<?php
+		include("entete.php");
+		?>
+
+		</head>
+		 
+		 <body>
+		
+		<div class="texteformu">
+                    <h3>Contact info:</h3>
+                    <dl class="adr" >
+                        <dt class="clr-1"><strong><i>Spasalon</i></strong></dt>
+                        <dd>8901 Marmora Road, Glasgow, D04 89GR</dd>
+                        <dd><span>Telephone:</span><strong>+1 959 603 6035</strong></dd>
+                        <dd><span>Fax:</span><strong>+1 504 889 9898</strong></dd>
+                        <dd><span>Email:</span><a href="#" class="link">floramechoub@yahoo.fr</a></dd>
+                        <dd>&nbsp;</dd>
+                        <dd>9863 Mill Road, Cambridge, MG09 99HT</dd>
+                        <dd><span>Telephone:</span><strong>+1 959 603 6035</strong></dd>
+                        <dd><span>Fax:</span><strong>+1 504 889 9898</strong></dd>
+                        <dd><span>Email:</span><a href="#" class="link">floramechoub@yahoo</a></dd>
+                    </dl> 
+                
+			
+		
+		
+		
+		
+		
+		
+		
+		
+
+		<form action="formm.php" name="subject" method="post">
+		<input type="hidden" name="subject" value="formmail">
+    <div>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" />
+    </div>
+	<div>
+	    <label for="prénom">prénom :</label>
+		<input type="text" id="prénom" />
+		</div>
+		<div>
+		<label for="age">age:</label>
+		<input type="text" id="age" />
+		</div>
+		<div>
+		<label for="numéro de téléphone">numéro de téléphone:</label>
+		<input type="text" id="numéro de téléphone"/>
+		</div>
+    <div>
+        <label for="courriel">Courriel :</label>
+        <input type="email" id="courriel" /> 
+    </div>
+    <div>
+        <label for="message" name= "message">Message :</label>
+        <textarea id="message"></textarea>
+    </div>
+    
+    
+	<div class="button">
+	<button type="submit">Envoyer votre message</button></a>
+		 
+    </div>
+	
+		</form>
+		</div>
+
+	<?php	
+		
+		include('piedpage.php');
+ 
+		?>
+	
+		</body>
+		</html>

@@ -1,0 +1,189 @@
+.barre{
+	list-style-type:none;
+	left:5px;
+	bottom:5px;
+	z-index:99;
+	position:relative; 
+	width:1200px;
+	display:inline-block;
+}
+	.barre li {
+		float:left; 
+		background:pink;
+		
+	}
+		.barre a {
+			display:block;
+			width:150px;
+			height:66px;
+			text-align:center;
+			font-family: 'PT Sans', sans-serif;
+			font-size:23px;
+			line-height:66px;
+			color:pink;
+			text-decoration:none;
+		}
+		.barre li:first-child a {background:none;}
+		.barre .current,
+		.barre li:hover { background-color:#ec6e84;}
+		.barre .current a {cursor:default;}
+#table3{
+	color:#8A2BE2;
+	text-align: center;
+	font-size: 0px;	
+}
+
+img.space {
+border: 2px none #000;
+margin: 15px;
+}
+
+
+
+.texteformu
+{
+	color:white;
+}
+body
+ 
+ {
+ 
+ background-image: url(bg.jpg);
+ 
+ }
+
+div#conteneur
+{
+  width: 770px ;
+  margin: 0 auto ;
+  text-align: left ;
+   border: 2px solid #d61ea5 ;
+    background: #fff ;
+}
+h1#header
+{
+  height: 100px ;
+}
+.titre {
+	font-size: 1em;
+}
+html {
+	
+	border-left:100px solid black ;
+	border-right:100px solid black ;
+ }
+ h6     {
+	
+	font: italic normal 3em georgia, sans-serif;
+	letter-spacing: 1px; 
+	text-align:center;
+	margin-bottom: 0; 
+	color: #7D775C
+ }
+ 
+ 
+ h2{
+	 font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 0; 
+	color: #7D775C
+ }
+ .creme {
+	 padding-right: 10px;
+	 padding-bottom:5px;
+	 padding-left:10px;
+ }
+ .image {
+	 
+	border:padding-bottom: 5px; 
+}
+ footer { width:950px; margin:0 auto; position:relative; overflow:hidden; padding:17px 0 40px 0; text-align:center;} 
+ 
+h1 {
+	padding-top:2em;
+	padding-bottom:2em;
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	text-align:center;
+	margin-bottom: 0; 
+	color: #7D775C
+}
+p { 
+	padding:20px;
+    line-height: 2em;
+	margin-top: 0; 
+	text-align: justify;
+	color: white;
+	}
+body {	
+    font-family:"times new roman", times, serif;
+	font: 100% georgia,
+	sans-serif;
+	}
+strong {
+  font-weight:normal;
+}
+
+.soins {
+	clear: both; 
+	width: 1135px; 
+}
+
+#corps{
+	
+	
+}
+
+#barre a:hover,#barre a :focus {
+	background:pink;
+	height: 200px;
+	width:30px;
+}
+#entete {
+	height:80px; padding: 1px;
+}
+	form {
+    
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+input, textarea {
+   
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ border: 1px solid #999;
+}
+input:focus, textarea:focus {
+   
+    border-color: #000;
+}
+textarea {
+
+    vertical-align: top;
+
+    height: 5em;
+
+    resize: vertical;
+}
+.button {
+   
+    padding-left: 90px; 
+}
+
+
+
+
